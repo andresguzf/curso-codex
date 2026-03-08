@@ -1,5 +1,5 @@
 # Skill spring-boot-best-practices
-### Copiar el siguiente Prompt para crear el skill una vez ejecutado el comando ’$skill-creator’:
+### Copiar el siguiente Prompt para crear el skill una vez ejecutado el comando $skill-creator:
 
 ```
 1. Skill name: ‘spring-boot-best-practices’ 
