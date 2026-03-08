@@ -5,7 +5,7 @@
 1. Skill name: ‘spring-boot-best-practices’ 
 2. Create new Skill, description: que Genere un proyecto con la estructura de Spring Boot con capas de controllers, services, repository y models.
 3. Location for skill folder, crealo dentro del directorio del proyecto ‘.agents/skills‘
-5. Specific Instructions:
+4. Specific Instructions:
     - usar java version 25
     - usar spring boot 4.0.3 o superior disponible revisar en documentecion de spring boot en spring.io
     - usar configuracion basada en properties: application.properties, en vez de YAML
@@ -26,4 +26,4 @@
     - Para interfaces web de Spring Boot o monolito con spring web use plantillas de Thymeleaf, un diseño compartido y Tailwind CSS. Con layout reutilizable con header, navbar, footer y contenido principal centrado. Use semantica HTML with: `header`, `main`, and `footer`, use diseños base, fragmentos compartidos y la estructura de vistas de Thymeleaf, ejemplo `layouts/base.html`, `fragments/header.html`, `fragments/footer.html`.
     - Cuando necesite iniciar la aplicación localmente con Maven, siempre prefiera `./mvnw, ejemplo -DskipTests spring-boot:run` como comando de ejecución predeterminado.
     - registrar en AGENTS.md: Available skills y Skill trigger rules, si no existe lo creas
-6. Activation Triggers: cuando el usuario pide crear una API básica para `spring boot` o proyecto `spring web mvc` o `spring mvc` o `spring web`. Tambien cuando el usuario pida crear o agregar o modificar un entity, repository, service o controller de spring.
+5. Activation Triggers: cuando el usuario pide crear una API básica para `spring boot` o proyecto `spring web mvc` o `spring mvc` o `spring web`. Tambien cuando el usuario pida crear o agregar o modificar un entity, repository, service o controller de spring.
