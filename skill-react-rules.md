@@ -26,4 +26,4 @@
     - Evita side effects durante el render, los componentes y hooks deben ser puros.
     - Usa React Query o SWR cuando tu componente necesite obtener datos de una API y compartirlos o reutilizarlos entre varios componentes con cache y refetch automático.
     - Registrar en AGENTS.md: Available skills y Skill trigger rules, si no existe lo creas
-5. Activation Triggers: cuando el usuario pide crear una API básica para `spring boot` o para monolito `spring web`. Tambien cuando el usuario pida crear o agregar o modificar un entity, repository, service o controller de spring.
+5. Activation Triggers: cuando el usuario pida crear una aplicación o componente React, o agregar/modificar componentes, hooks, estado, formularios o lógica de UI en React.
