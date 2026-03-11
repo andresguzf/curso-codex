@@ -7,7 +7,7 @@
 3. Location for skill folder, crealo dentro del directorio del proyecto ‘.agents/skills‘
 4. Specific Instructions:
     - usar java version 25
-    - usar spring boot 4.0.3 o superior disponible revisar en documentecion de spring boot en spring.io
+    - usar spring boot 4.0.3 o superior disponible revisar en documentación de spring boot en spring.io
     - usar configuracion basada en properties: application.properties, en vez de YAML
     - usar packaging jar
     - usar maven como package manager
