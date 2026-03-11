@@ -7,7 +7,7 @@
 3. Location for skill folder, crealo dentro del directorio del proyecto ‘.agents/skills‘
 4. Specific Instructions:
     - Usar react version 19.2.4 o superior disponible revisar en documentación de react en https://www.npmjs.com/package/react
-    - Usar TypeScript en vez de JavaScript vanilla
+    - Usa TypeScript en lugar de JavaScript para mejorar el tipado, la seguridad del código y la mantenibilidad en aplicaciones React.
     - Usa Zustand para estado global creando un store con create() donde defines estado y acciones.
     - Usa Zod para validar datos mediante esquemas (z.object, z.string) y valida con parse o safeParse.
     - En formularios React integra Zod con React Hook Form.
