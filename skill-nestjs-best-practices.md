@@ -9,8 +9,6 @@
    - usar NestJS v11.1.16 o version mas actualizada en https://www.npmjs.com/package/@nestjs/core
    - usar TypeScript
    - crear el proyecto con Nest CLI en estructura estándar
-   - usar npm como package manager
-   - nombre del proyecto igual al nombre del directorio workspace
    - organizar la app por módulos o features
    - crear estructura base con modules, controllers, services, dto y prisma
    - usar Dependency Injection de Nest con providers e inyección por constructor
@@ -23,7 +21,6 @@
    - service: contiene lógica de negocio y acceso a datos mediante Prisma
    - usar Zod para validar datos definiendo esquemas y validando request body, params o query cuando corresponda
    - usar DTOs para request y response solo si ayudan a tipado y organización, pero priorizar esquemas Zod para validación
-   - excluir campos sensibles o internos como password, createdAt y updatedAt
    - crear mapeo explícito entre DTO y modelo cuando sea necesario
    - usar decoradores REST de Nest como @Controller, @Get, @Post, @Patch, @Delete, @Param, @Body y @Query
    - no usar repository pattern clásico salvo necesidad real; preferir PrismaService o servicios específicos
