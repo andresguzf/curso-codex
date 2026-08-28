@@ -6,8 +6,9 @@
 2. Create new Skill, description: que Genere un proyecto con la estructura de React con TypeScript.
 3. Location for skill folder, crealo dentro del directorio del proyecto ‘.agents/skills‘
 4. Specific Instructions:
-    - Usar react version 19.2.4 o superior disponible revisar en documentación de react en https://www.npmjs.com/package/react
+    - Usar react version 19.2.8 o superior disponible revisar en documentación de react en https://www.npmjs.com/package/react
     - Usa TypeScript en lugar de JavaScript para mejorar el tipado, la seguridad del código y la mantenibilidad en aplicaciones React.
+    - Usa Tailwind para CSS
     - Usa Zustand para estado global creando un store con create() donde defines estado y acciones.
     - Usa Zod para validar datos mediante esquemas (z.object, z.string) y valida con parse o safeParse.
     - En formularios React integra Zod con React Hook Form.
@@ -25,5 +26,7 @@
     - No llames hooks dentro de bucles, condicionales o funciones anidadas.
     - Evita side effects durante el render, los componentes y hooks deben ser puros.
     - Usa React Query o SWR cuando tu componente necesite obtener datos de una API y compartirlos o reutilizarlos entre varios componentes con cache y refetch automático.
+    - El frontend consumirá exclusivamente la API REST.
+    - Con Next.js y TypeScript NO utilizar Server Actions para la lógica de negocio ni acceso a datos, usar API REST.
     - Registrar en AGENTS.md: Available skills y Skill trigger rules, si no existe lo creas
 5. Activation Triggers: cuando el usuario pida crear una aplicación o componente React, o agregar/modificar componentes, hooks, estado, formularios o lógica de UI en React.
